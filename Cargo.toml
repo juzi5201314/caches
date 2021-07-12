@@ -1,0 +1,15 @@
+[package]
+name = "caches"
+version = "0.1.0"
+edition = "2018"
+authors = ["soeur <juzi201314@gmail.com>"]
+license = "The Unlicense"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+linked-hash-map-rs = "0.1.2"
+
+[[bin]]
+name = "hits_ratio"
+
